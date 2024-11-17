@@ -30,7 +30,7 @@ int main()
 
     while(completed < n)
     {
-        int max_priority = -1, index = -1;
+        int max_priority = 9999, index = -1;
 
         for(int i =0; i<n; i++)
         {
